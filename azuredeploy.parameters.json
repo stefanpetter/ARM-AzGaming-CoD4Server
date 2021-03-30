@@ -12,7 +12,7 @@
             "value": "Standard_DS1_v2"
         },
         "adminUsername": {
-            "value": "vm_admin"
+            "value": "codministrator"
         },
         "adminPassword": {
             "value": null

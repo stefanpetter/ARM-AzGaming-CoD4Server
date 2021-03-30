@@ -74,7 +74,11 @@
                             "sourceAddressPrefix": "*",
                             "sourcePortRange": "*",
                             "destinationAddressPrefix": "*",
-                            "destinationPortRange": "20800, 20810, 28960"
+                            "destinationPortRanges": [
+                                "28960",
+                                "20800",
+                                "20810"
+                            ]
                         }
                     }
                 ]
@@ -127,6 +131,7 @@
                 },
                 "storageProfile": {
                     "osDisk": {
+                        "name": "[concat(parameters('virtualMachineName'), '-osdisk')]",
                         "createOption": "fromImage",
                         "managedDisk": {
                             "storageAccountType": "StandardSSD_LRS"
