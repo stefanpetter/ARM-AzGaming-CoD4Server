@@ -18,7 +18,7 @@
             "defaultValue": "codministrator"
         },
         "adminPassword": {
-            "type": "secureString",
+            "type": "secureString"
         }
     },
     "variables": {
@@ -92,13 +92,13 @@
                     ]
                 },
                 "subnets": [
-                {
-                    "name": "Servers",
-                    "properties": {
-                        "addressPrefix": "10.13.37.0/25"
+                    {
+                        "name": "Servers",
+                        "properties": {
+                            "addressPrefix": "10.13.37.0/25"
+                        }
                     }
-                }
-            ]
+                ]
             }
         },
         {
